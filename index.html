@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+
+    <link rel="icon" type="image/png"
+    href="data:image/png;base64,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"
+    sizes="64x64"/>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <script
+      src="https://kit.fontawesome.com/6364c43628.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <div class="wrapper">
+          <div class="left flex">
+            <div class="logo">
+              <a href="#"
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png"
+                  alt=""
+              /></a>
+            </div>
+
+            <ul class="nav-links">
+              <li>
+                <a href="#">Men</a>
+                <div class="men">
+                <div class="mega-box">
+                    <div class="content">
+                      <div class="col">
+                      <div class="row">
+                          <header>top wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">T-shirt</a></li>
+                              <li><a href="#">Casual shirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">Sweater</a></li>
+                              <li><a href="#">Blazer</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                          <hr>
+                          <header>Indian & festive wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Kurtas & Kurta sets</a></li>
+                              <li><a href="#">Sherwanis</a></li>
+                              <li><a href="#">Nehru Jacket</a></li>
+                              <li><a href="#">Dhotis</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                        
+                       <div class="col">
+                         <div class="row">
+                           <header>bottom wear</header>
+                           <ul class="mega-links">
+                             <li><a href="#">Jeans</a></li>
+                             <li><a href="#">Casual Trouser</a></li>
+                             <li><a href="#">Formal Trouser</a></li>
+                             <li><a href="#">Shorts</a></li>
+                             <li><a href="#">Track-pants & Joggers</a></li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="row">
+                            <header>Innerwear & Sleepwear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Briefs & Trunks</a></li>
+                              <li><a href="#">Boxers</a></li>
+                              <li><a href="#">Vests</a></li>
+                              <li><a href="#">Sleepwear & Loungewear</a></li>
+                              <li><a href="#">Thermals</a></li>
+                             </ul>
+                             <hr>
+                            <header>Plus Size</header>
+                           </div>
+                        </div> 
+                        
+                         <ul class="mega-links"><li></li></ul>
+                       <div class="col">
+                        <div class="row">
+                          <header>foot wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Sport Shoes</a></li>
+                      <li><a href="#">Casual Shoes</a></li>
+                      <li><a href="#">Formal Shoes</a></li>
+                      <li><a href="#">Sneakers</a></li>
+                      <li><a href="#">Sandals & Floaters</a></li>
+                      <li><a href="#">Flip-Flops</a></li>
+                      <li><a href="#">Socks</a></li>
+                          </ul>
+                      </div>
+                        <hr>
+                        <div class="row">
+                          <header>Personal Care & Grooming</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Sunglasses & Frames</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Watches</header>
+                          </div>
+                       </div> 
+                       
+
+                       <div class="col">
+                        <div class="row">
+                          <header>Sports & Active Wear</header>
+                          <ul class="mega-links">
+                            <li><a href="#">sports shoes</a></li>
+                            <li><a href="#">Sports Sandals</a></li>
+                            <li><a href="#">Active T-shirt</a></li>
+                            <li><a href="#">Trackpant & Shorts</a></li>
+                            <li><a href="#">Tracksuits</a></li>
+                            <li><a href="#">Jackets & Sweatshirt</a></li>
+                            <li><a href="#">Sports accessories</a></li>
+                            <li><a href="#">Swinwear</a></li>
+                           </ul>
+                         </div>
+                         <hr>
+                         <div class="row">
+                           <header>Gadgets</header>
+                           <ul class="mega-links">
+                             <li><a href="#">Smart Wearables</a></li>
+                             <li><a href="#">Fitness Gadgets</a></li>
+                             <li><a href="#">Headphones</a></li>
+                             <li><a href="#">Speakers</a></li>
+                            </ul>
+                          </div>
+                       </div> 
+
+                       <div class="col">
+                        <div class="row">
+                          <header>Fashion accessories</header>
+                          <ul class="mega-links">
+                      <li><a href="#">Wallets</a></li>
+                      <li><a href="#">Belts</a></li>
+                      <li><a href="#">Perfumes & Body mists</a></li>
+                      <li><a href="#">Trimmers</a></li>
+                      <li><a href="#">Deodrants</a></li>
+                      <li><a href="#">accessories Gift Sets</a></li>
+                      <li><a href="#">Caps & Hats</a></li>
+                      <li><a href="#">Muffler, Scarves & Gloves</a></li>
+                      <li><a href="#">Phone cases</a></li>
+                      <li><a href="#">Rings & Wristwear</a></li>
+                      <li><a href="#">Helmet</a></li>
+
+                          </ul>
+                      </div>
+                        <hr>
+                        <div class="row">
+                          <header>Bags & Backpacks</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Luggage & trolleys</header>
+                          </div>
+                       </div> 
+                    </div>
+                </div>
+                </div>
+                <!-- <ul class="drop-menu">
+                  <li><a href="#">top wear</a></li>
+                  <li><a href="#">top wear</a></li>
+                  <li><a href="#">top wear</a></li>
+                </ul> -->
+              </li>
+              <li>
+                <a href="#">Women</a>
+                <div class="women">
+                  <div class="mega-box">
+                      <div class="content">
+                        <div class="col">
+                        <div class="row">
+                            <header>Indian & Fusion Wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">T-shirt</a></li>
+                                <li><a href="#">Casual shirt</a></li>
+                                <li><a href="#">jackets</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Blazer</a></li>
+                                <li><a href="#">Kurtas & Kurta sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jacket</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                              </ul>
+                              <hr>
+                              <header>Belts, Scarves & More</header>
+                              <hr>
+                              <header>Watches & Wearables</header>
+                          </div>
+                          </div>
+                          
+                         <div class="col">
+                           <div class="row">
+                             <header>Western wear</header>
+                             <ul class="mega-links">
+                               <li><a href="#">Jeans</a></li>
+                               <li><a href="#">Casual Trouser</a></li>
+                               <li><a href="#">Formal Trouser</a></li>
+                               <li><a href="#">Shorts</a></li>
+                               <li><a href="#">Track-pants & Joggers</a></li>
+                               <li><a href="#">Briefs & Trunks</a></li>
+                                <li><a href="#">Boxers</a></li>
+                                <li><a href="#">Vests</a></li>
+                                <li><a href="#">Sleepwear & Loungewear</a></li>
+                                <li><a href="#">Thermals</a></li>
+                              </ul>
+                              <hr>
+                              <header>Plus Size</header>
+                            </div>
+                          </div> 
+                          
+                           <ul class="mega-links"><li></li></ul>
+                         <div class="col">
+                          <div class="row">
+                            <header>Maternity</header>
+                            <hr style=" visibility: hidden;">
+                            <header>Sunglasses & Frames</header>
+                            <hr style=" visibility: hidden;">                            
+                            <header>foot wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Sport Shoes</a></li>
+                        <li><a href="#">Casual Shoes</a></li>
+                        <li><a href="#">Formal Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Sandals & Floaters</a></li>
+                        <li><a href="#">Flip-Flops</a></li>
+                        <li><a href="#">Socks</a></li>
+                            </ul>
+                        </div>
+                          <hr>
+                          <div class="row">
+                            <header>Sports & Active Wear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Active T-shirt</a></li>
+                              <li><a href="#">Trackpant & Shorts</a></li>
+                              <li><a href="#">Jackets & Sweatshirt</a></li>
+                              <li><a href="#">Sports accessories</a></li>
+                              <li><a href="#">Swinwear</a></li>
+                             </ul>
+                           </div>
+                         </div> 
+                         
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Lingerie & Sleepwear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">sports shoes</a></li>
+                              <li><a href="#">Sports Sandals</a></li>
+                              <li><a href="#">Active T-shirt</a></li>
+                              <li><a href="#">Trackpant & Shorts</a></li>
+                              <li><a href="#">Tracksuits</a></li>
+                              <li><a href="#">Jackets & Sweatshirt</a></li>
+                              <li><a href="#">Sports accessories</a></li>
+                              <li><a href="#">Swinwear</a></li>
+                             </ul>
+                           </div>
+                           <hr>
+                           <div class="row">
+                             <header>Beauty & Personal Care</header>
+                             <ul class="mega-links">
+                               <li><a href="#">Smart Wearables</a></li>
+                               <li><a href="#">Fitness Gadgets</a></li>
+                               <li><a href="#">Headphones</a></li>
+                               <li><a href="#">Speakers</a></li>
+                              </ul>
+                            </div>
+                         </div> 
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Gadgets</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Smart Wearables</a></li>
+                              <li><a href="#">Fitness Gadgets</a></li>
+                              <li><a href="#">Headphones</a></li>
+                              <li><a href="#">Speakers</a></li>
+                             </ul>
+                           </div>
+                          <div class="row">
+                            <header>Jewellery</header>
+                            <ul class="mega-links">
+                        <li><a href="#">Fashion jewellery</a></li>
+                        <li><a href="#">Fine Jewellery</a></li>
+                        <li><a href="#">Earings</a></li>
+                            </ul>
+                        </div>
+                          <hr>
+                          <div class="row">
+                            <header>Bags & Backpacks</header>
+                            <hr style=" visibility: hidden;">
+                            <header>Luggage & trolleys</header>
+                            </div>
+                         </div> 
+                      </div>
+                  </div>
+                  </div>
+              </li>
+              <li>
+                <a href="#">Kids</a>
+                <div class="kids">
+                  <div class="mega-box">
+                      <div class="content">
+                        <div class="col">
+                        <div class="row">
+                            <header>Boys Clothing</header>
+                            <ul class="mega-links">
+                                <li><a href="#">T-shirt</a></li>
+                                <li><a href="#">Casual shirt</a></li>
+                                <li><a href="#">jackets</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Blazer</a></li>
+                                <li><a href="#">Kurtas & Kurta sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jacket</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                                <li><a href="#">Jeans</a></li>
+                               <li><a href="#">Casual Trouser</a></li>
+                               <li><a href="#">Formal Trouser</a></li>
+                               <li><a href="#">Shorts</a></li>
+                               <li><a href="#">Track-pants & Joggers</a></li>
+                              </ul>
+                          </div>
+                        </div>
+                          
+                         <div class="col">
+                           <div class="row">
+                             <header>Girls Clothing</header>
+                             <ul class="mega-links">
+                              <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                              <li><a href="#">T-shirt</a></li>
+                                <li><a href="#">Casual shirt</a></li>
+                                <li><a href="#">jackets</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Blazer</a></li>
+                                <li><a href="#">Kurtas & Kurta sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jacket</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                               <li><a href="#">Jeans</a></li>
+                               <li><a href="#">Casual Trouser</a></li>
+                               <li><a href="#">Formal Trouser</a></li>
+                               <li><a href="#">Shorts</a></li>
+                               <li><a href="#">Track-pants & Joggers</a></li>
+                              </ul>
+                            </div>
+                          </div> 
+                          
+                           <ul class="mega-links"><li></li></ul>
+                         <div class="col">
+                          <div class="row">
+                            <header>foot wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Sport Shoes</a></li>
+                        <li><a href="#">Casual Shoes</a></li>
+                        <li><a href="#">Formal Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Sandals & Floaters</a></li>
+                        <li><a href="#">Flip-Flops</a></li>
+                        <li><a href="#">Socks</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                           <div class="row">
+                             <header>Toys</header>
+                             <ul class="mega-links">
+                               <li><a href="#">Learning & Development</a></li>
+                               <li><a href="#">Activity Toys </a></li>
+                               <li><a href="#">Soft Toys</a></li>
+                               <li><a href="#">Action Figure & Play set</a></li>
+                              </ul>
+                            </div>
+                         </div> 
+                         
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Infants</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Wallets</a></li>
+                              <li><a href="#">Belts</a></li>
+                              <li><a href="#">Perfumes & Body mists</a></li>
+                              <li><a href="#">Trimmers</a></li>
+                              <li><a href="#">Deodrants</a></li>
+                              <li><a href="#">accessories Gift Sets</a></li>
+                              <li><a href="#">Caps & Hats</a></li>
+                              <li><a href="#">Muffler, Scarves & Gloves</a></li>
+                              <li><a href="#">Phone cases</a></li>
+                              <li><a href="#">Rings & Wristwear</a></li>
+                              <li><a href="#">Helmet</a></li>
+                                  </ul>
+                           </div>
+                           <hr>
+                          <div class="row">
+                            <header>Personal Care</header>
+                            <hr style=" visibility: hidden;">
+                            <header>Home & Bath</header>
+                            </div>
+                         </div> 
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Kid accessories</header>
+                            <ul class="mega-links">
+                        <li><a href="#">Wallets</a></li>
+                        <li><a href="#">Belts</a></li>
+                        <li><a href="#">Deodrants</a></li>
+                        <li><a href="#">Caps & Hats</a></li>
+                        <li><a href="#">Phone cases</a></li>
+                        <li><a href="#">Rings & Wristwear</a></li>
+                            </ul>
+                        </div>
+                          <hr>
+                          <div class="row">
+                            <header>Brands</header>
+                            <ul class="mega-links">
+                              <li><a href="#">H&M</a></li>
+                              <li><a href="#">Max Kids</a></li>
+                              <li><a href="#">Pantaloons</a></li>
+                              <li><a href="#">Trackpant & Shorts</a></li>
+                              <li><a href="#">Tracksuits</a></li>
+                              <li><a href="#">Jackets & Sweatshirt</a></li>
+                              <li><a href="#">Mothercare</a></li>
+                              <li><a href="#">HRX</a></li>
+                             </ul>
+                           </div>
+                         </div> 
+                      </div>
+                  </div>
+                  </div>
+            </li>
+              <li ><a href="#">Home & Living</a>
+                <div class="hnl">
+                <div class="mega-box">
+                    <div class="content">
+                      <div class="col">
+                      <div class="row">
+                          <header>top wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">T-shirt</a></li>
+                              <li><a href="#">Casual shirt</a></li>
+                              <li><a href="#">jackets</a></li>
+                              <li><a href="#">Sweater</a></li>
+                              <li><a href="#">Blazer</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                          <hr>
+                          <header>Indian & festive wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Kurtas & Kurta sets</a></li>
+                              <li><a href="#">Sherwanis</a></li>
+                              <li><a href="#">Nehru Jacket</a></li>
+                              <li><a href="#">Dhotis</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                        
+                       <div class="col">
+                         <div class="row">
+                           <header>bottom wear</header>
+                           <ul class="mega-links">
+                             <li><a href="#">Jeans</a></li>
+                             <li><a href="#">Casual Trouser</a></li>
+                             <li><a href="#">Formal Trouser</a></li>
+                             <li><a href="#">Shorts</a></li>
+                             <li><a href="#">Track-pants & Joggers</a></li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div class="row">
+                            <header>Innerwear & Sleepwear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Briefs & Trunks</a></li>
+                              <li><a href="#">Boxers</a></li>
+                              <li><a href="#">Vests</a></li>
+                              <li><a href="#">Sleepwear & Loungewear</a></li>
+                              <li><a href="#">Thermals</a></li>
+                             </ul>
+                             <hr>
+                            <header>Plus Size</header>
+                           </div>
+                        </div> 
+                        
+                         <ul class="mega-links"><li></li></ul>
+                       <div class="col">
+                        <div class="row">
+                          <header>foot wear</header>
+                          <ul class="mega-links">
+                              <li><a href="#">Sport Shoes</a></li>
+                      <li><a href="#">Casual Shoes</a></li>
+                      <li><a href="#">Formal Shoes</a></li>
+                      <li><a href="#">Sneakers</a></li>
+                      <li><a href="#">Sandals & Floaters</a></li>
+                      <li><a href="#">Flip-Flops</a></li>
+                      <li><a href="#">Socks</a></li>
+                          </ul>
+                      </div>
+                        <hr>
+                        <div class="row">
+                          <header>Personal Care & Grooming</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Sunglasses & Frames</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Watches</header>
+                          </div>
+                       </div> 
+                       
+
+                       <div class="col">
+                        <div class="row">
+                          <header>Sports & Active Wear</header>
+                          <ul class="mega-links">
+                            <li><a href="#">sports shoes</a></li>
+                            <li><a href="#">Sports Sandals</a></li>
+                            <li><a href="#">Active T-shirt</a></li>
+                            <li><a href="#">Trackpant & Shorts</a></li>
+                            <li><a href="#">Tracksuits</a></li>
+                            <li><a href="#">Jackets & Sweatshirt</a></li>
+                            <li><a href="#">Sports accessories</a></li>
+                            <li><a href="#">Swinwear</a></li>
+                           </ul>
+                         </div>
+                         <hr>
+                         <div class="row">
+                           <header>Gadgets</header>
+                           <ul class="mega-links">
+                             <li><a href="#">Smart Wearables</a></li>
+                             <li><a href="#">Fitness Gadgets</a></li>
+                             <li><a href="#">Headphones</a></li>
+                             <li><a href="#">Speakers</a></li>
+                            </ul>
+                          </div>
+                       </div> 
+
+                       <div class="col">
+                        <div class="row">
+                          <header>Fashion accessories</header>
+                          <ul class="mega-links">
+                      <li><a href="#">Wallets</a></li>
+                      <li><a href="#">Belts</a></li>
+                      <li><a href="#">Perfumes & Body mists</a></li>
+                      <li><a href="#">Trimmers</a></li>
+                      <li><a href="#">Deodrants</a></li>
+                      <li><a href="#">accessories Gift Sets</a></li>
+                      <li><a href="#">Caps & Hats</a></li>
+                      <li><a href="#">Muffler, Scarves & Gloves</a></li>
+                      <li><a href="#">Phone cases</a></li>
+                      <li><a href="#">Rings & Wristwear</a></li>
+                      <li><a href="#">Helmet</a></li>
+
+                          </ul>
+                      </div>
+                        <hr>
+                        <div class="row">
+                          <header>Bags & Backpacks</header>
+                          <hr style=" visibility: hidden;">
+                          <header>Luggage & trolleys</header>
+                          </div>
+                       </div> 
+                    </div>
+                </div>
+                </div>
+              </li>
+              <li><a href="#">Beauty</a>
+                <div class="beauty">
+                  <div class="mega-box">
+                      <div class="content">
+                        <div class="col">
+                        <div class="row">
+                            <header>Indian & Fusion Wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">T-shirt</a></li>
+                                <li><a href="#">Casual shirt</a></li>
+                                <li><a href="#">jackets</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Blazer</a></li>
+                                <li><a href="#">Kurtas & Kurta sets</a></li>
+                                <li><a href="#">Sherwanis</a></li>
+                                <li><a href="#">Nehru Jacket</a></li>
+                                <li><a href="#">Dhotis</a></li>
+                              </ul>
+                              <hr>
+                              <header>Belts, Scarves & More</header>
+                              <hr>
+                              <header>Watches & Wearables</header>
+                          </div>
+                          </div>
+                          
+                         <div class="col">
+                           <div class="row">
+                             <header>Western wear</header>
+                             <ul class="mega-links">
+                               <li><a href="#">Jeans</a></li>
+                               <li><a href="#">Casual Trouser</a></li>
+                               <li><a href="#">Formal Trouser</a></li>
+                               <li><a href="#">Shorts</a></li>
+                               <li><a href="#">Track-pants & Joggers</a></li>
+                               <li><a href="#">Briefs & Trunks</a></li>
+                                <li><a href="#">Boxers</a></li>
+                                <li><a href="#">Vests</a></li>
+                                <li><a href="#">Sleepwear & Loungewear</a></li>
+                                <li><a href="#">Thermals</a></li>
+                              </ul>
+                              <hr>
+                              <header>Plus Size</header>
+                            </div>
+                          </div> 
+                          
+                           <ul class="mega-links"><li></li></ul>
+                         <div class="col">
+                          <div class="row">
+                            <header>Maternity</header>
+                            <hr style=" visibility: hidden;">
+                            <header>Sunglasses & Frames</header>
+                            <hr style=" visibility: hidden;">                            
+                            <header>foot wear</header>
+                            <ul class="mega-links">
+                                <li><a href="#">Sport Shoes</a></li>
+                        <li><a href="#">Casual Shoes</a></li>
+                        <li><a href="#">Formal Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Sandals & Floaters</a></li>
+                        <li><a href="#">Flip-Flops</a></li>
+                        <li><a href="#">Socks</a></li>
+                            </ul>
+                        </div>
+                          <hr>
+                          <div class="row">
+                            <header>Sports & Active Wear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Active T-shirt</a></li>
+                              <li><a href="#">Trackpant & Shorts</a></li>
+                              <li><a href="#">Jackets & Sweatshirt</a></li>
+                              <li><a href="#">Sports accessories</a></li>
+                              <li><a href="#">Swinwear</a></li>
+                             </ul>
+                           </div>
+                         </div> 
+                         
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Lingerie & Sleepwear</header>
+                            <ul class="mega-links">
+                              <li><a href="#">sports shoes</a></li>
+                              <li><a href="#">Sports Sandals</a></li>
+                              <li><a href="#">Active T-shirt</a></li>
+                              <li><a href="#">Trackpant & Shorts</a></li>
+                              <li><a href="#">Tracksuits</a></li>
+                              <li><a href="#">Jackets & Sweatshirt</a></li>
+                              <li><a href="#">Sports accessories</a></li>
+                              <li><a href="#">Swinwear</a></li>
+                             </ul>
+                           </div>
+                           <hr>
+                           <div class="row">
+                             <header>Beauty & Personal Care</header>
+                             <ul class="mega-links">
+                               <li><a href="#">Smart Wearables</a></li>
+                               <li><a href="#">Fitness Gadgets</a></li>
+                               <li><a href="#">Headphones</a></li>
+                               <li><a href="#">Speakers</a></li>
+                              </ul>
+                            </div>
+                         </div> 
+  
+                         <div class="col">
+                          <div class="row">
+                            <header>Gadgets</header>
+                            <ul class="mega-links">
+                              <li><a href="#">Smart Wearables</a></li>
+                              <li><a href="#">Fitness Gadgets</a></li>
+                              <li><a href="#">Headphones</a></li>
+                              <li><a href="#">Speakers</a></li>
+                             </ul>
+                           </div>
+                          <div class="row">
+                            <header>Jewellery</header>
+                            <ul class="mega-links">
+                        <li><a href="#">Fashion jewellery</a></li>
+                        <li><a href="#">Fine Jewellery</a></li>
+                        <li><a href="#">Earings</a></li>
+                            </ul>
+                        </div>
+                          <hr>
+                          <div class="row">
+                            <header>Bags & Backpacks</header>
+                            <hr style=" visibility: hidden;">
+                            <header>Luggage & trolleys</header>
+                            </div>
+                         </div> 
+                      </div>
+                  </div>
+                  </div>
+              </li>
+              <li><a href="#">Studio</a>
+                <div class="studio">
+                  <img class="studioLogo" src="imgMyntra/studioLogo.png" alt="">
+                  <h4>Your Daily inspiration for everything fashion</h4>
+                  <img src="imgMyntra/studio-nav-banner.png" alt="">
+                  <div class="h3">
+                    <h4>EXPLORE STUDIO</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right flex">
+            <input
+              placeholder="Search for products, brands and more"
+              class="desktop-searchBar search"
+              value=""
+              data-reactid="907" />
+             <div class="profile mx-2 col" >              <!-- style="padding-right: 6px; padding-left: 6px;" -->
+            <div class="row"><span class="icon "><img src="imgMyntra/icon/user.png" alt=""></span></div>
+          <span class="row txt">Profile</span></div>
+          <div class="profile mx-2 col" >
+            <div class="row"><span class="icon "><img src="imgMyntra/icon/heart.png" alt=""></span></div>
+          <span class="row txt">Wishlist</span></div>
+          <div class="profile mx-2 col" >
+            <div class="row"><span class="icon "><img src="imgMyntra/icon/shopping-bag.png" alt=""></span></div>
+          <span class="row txt">&nbsp;&nbsp;&nbsp;Bag</span></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="section1">
+        <img class="homeImg homepg" src="imgMyntra/new_home.png" alt="" />
+      </section>
+      <section class="section1 flex">
+        <img class="homeImg" src="imgMyntra/1.jpg" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="itemImg" src="imgMyntra/1/1.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/2.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/3.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/4.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/5.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/6.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/7.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/8.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/9.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/10.webp" alt="" />
+      </section>
+  
+      <section class="section1 img9 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/1/11.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/12.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/13.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/14.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/15.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/16.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/17.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/18.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/1/19.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="homeImg barImg" src="imgMyntra/2.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="itemImg" src="imgMyntra/2/1.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/2.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/3.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/4.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/5.jpeg" alt="" />
+        <img class="itemImg" src="imgMyntra/2/6.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/7.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/8.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/9.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/10.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/2/11.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/12.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/13.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/14.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/15.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/16.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/17.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/18.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/19.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/2/20.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="homeImg barImg" src="imgMyntra/3.jpg" alt="" />
+      </section>
+  
+      <section class="section1 img9 flex">
+        <img class="itemImg" src="imgMyntra/3/1.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/2.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/3.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/4.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/5.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/6.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/7.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/8.jpeg" alt="" />
+        <img class="itemImg" src="imgMyntra/3/9.webp" alt="" />
+      </section>
+  
+      <section class="section1 img9 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/3/10.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/11.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/12.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/13.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/14.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/15.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/16.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/17.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/3/18.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="homeImg barImg" src="imgMyntra/4.jpg" alt="" />
+      </section>
+  
+      <section class="section1 img9 flex">
+        <img class="itemImg" src="imgMyntra/4/1.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/2.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/3.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/4.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/5.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/6.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/7.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/8.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/9.webp" alt="" />
+      </section>
+  
+      <section class="section1 img9 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/4/10.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/11.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/12.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/13.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/14.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/15.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/16.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/17.webp" alt="" />
+        <img class="itemImg" src="imgMyntra/4/18.webp" alt="" />
+      </section>
+  
+      <section class="section1 flex">
+        <img class="homeImg barImg" src="imgMyntra/5.webp" alt="" />
+      </section>
+  
+      <section class="section1 img6 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/1.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/2.jpg" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/3.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/4.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/5.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/6.webp" alt="" /></div>
+      </section>
+  
+      <section class="section1 img6 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/7.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/8.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/9.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/10.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/11.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/12.webp" alt="" /></div>
+      </section>
+  
+      <section class="section1 img6 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/13.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/14.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/15.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/16.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/17.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/18.webp" alt="" /></div>
+      </section>
+  
+      <section class="section1 img6 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/19.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/20.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/21.jpg" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/22.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/23.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/24.webp" alt="" /></div>
+      </section>
+  
+      <section class="section1 img6 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/25.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/26.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/27.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/28.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/29.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/30.webp" alt="" /></div>
+      </section>
+  
+      <section class="section1 img4 flex flexWrap">
+        <img class="itemImg" src="imgMyntra/5/7.wjbp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/31.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/32.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/33.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/34.webp" alt="" /></div>
+        <img class="itemImg" src="imgMyntra/5/7.wjbp" alt="" /></div>
+        </section>
+  
+        <footer> <div class="footcenter">Copyright | All rights reserved</div>
+            <div class="container footContent"><div class="desktop-gyanContainer" data-reactid="348">
+            <h1><strong>ONLINE SHOPPING MADE EASY AT MYNTRA</strong></h1>
+            <p>If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including <a class="seolink" href="/clothing">clothing</a>, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.</p>
+            <h3><strong>BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</strong></h3>
+            <p>Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.</p>
+            <ul>
+            <li><strong>Smart men’s clothing</strong> - At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit.</li>
+            <li><strong>Trendy women’s clothing</strong> - <a class="seolink" href="/shop/women">Online shopping for women</a> at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand <a class="seolink" href="/saree">sarees</a> and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.</li>
+            <li><strong>Fashionable footwear</strong> - While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.</li>
+            <li><strong>Stylish accessories</strong> - Myntra is one of the best online shopping sites for classy accessories that perfectly complement your outfits. You can select smart analogue or digital watches and match them up with belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options.</li>
+            <li><strong>Fun and frolic</strong> - Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our lineup of toys with which you can create memories to cherish.</li>
+            <li><strong>Beauty begins here </strong>- You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural beauty.</li>
+            </ul>
+            <p>Myntra is one of the best online shopping sites in India which could help transform your living spaces completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to impress your guest. Wall decor, clocks, <a class="seolink" href="/photo-frames">photo frames</a> and artificial plants are sure to breathe life into any corner of your home.</p>
+            <h3><strong>AFFORDABLE FASHION AT YOUR FINGERTIPS</strong></h3>
+            <p>Myntra is one of the unique online shopping sites in India where fashion is accessible to all. Check out our new arrivals to view the latest designer clothing, footwear and accessories in the market. You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts on footwear, trousers, shirts, backpacks and more. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable.</p>
+            <h3><strong>MYNTRA INSIDER</strong></h3>
+            <p>Every online shopping experience is precious. Hence, a cashless reward-based customer loyalty program called <a class="seolink" href="/myntrainsider">Myntra Insider</a> was introduced to enhance your online experience. The program is applicable to every registered customer and measures rewards in the form of Insider Points.</p>
+            <p>There are four levels to achieve in the program, as the Insider Points accumulate. They are - Insider, Select, Elite or Icon. Apart from offering discounts on Myntra and partner platform coupons, each tier comes with its own special perks.</p>
+            <p><strong>Insider</strong></p>
+            <ul>
+            <li style="list-style-type: disc;">Opportunity to master any domain in fashion with tips from celebrity stylists at Myntra Masterclass sessions.</li>
+            <li style="list-style-type: disc;">Curated collections from celeb stylists.</li>
+            </ul>
+            <p><strong>Elite</strong></p>
+            <ul>
+            <li style="list-style-type: disc;">VIP access to special sale events such as the End of Reason Sale (EORS) and product launches.</li>
+            <li style="list-style-type: disc;">Exclusive early access to Limited Edition products</li>
+            </ul>
+            <p><strong>Icon</strong></p>
+            <ul>
+            <li style="list-style-type: disc;">Chance to get on guest lists for special events.</li>
+            <li><a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a></li>
+            </ul>
+            <h3><strong>Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On</strong></h3>
+            <p>The world wide web is evolving at a relentless pace, and with an accelerated growth each passing year, there is bound to be an overwhelming surge of online content. It was for this very reason that personalisation of search feeds was proposed as a solution to combat the overload of irrelevant information.</p>
+            <p>Several social media platforms such as Facebook and Instagram along with various online shopping websites have chosen to help filter content, increasing user engagement, retention and customer loyalty.</p>
+            <p>Myntra is one such online shopping website that joins the list of platforms that help curate a personalised fashion feed. Named the<a class="seolink" href="/studio/home">Myntra Studio</a>, this personalised search feed brings you the latest men and women’s fashion trends, celebrity styles, branded content and daily updates from your favourite fashion labels.</p>
+            <p>If you are wondering how impactful Myntra Studio can be, we are listing out five perks of having a rich, meaningful, and personalised fashion feed in your life.</p>
+            <ul>
+            <li><strong>Keep Up With What Your Favourite Fashion Icons Are Upto</strong></li>
+            <p>The #OOTD, AKA outfit of the day hashtag trend has been a rage among fashion bloggers and stylists. The whole concept of building an outfit from scratch and showcasing it to a huge community of enthusiasts using the hashtag has helped individuals with understanding trends and making suitable for daily wear.</p>
+            <p>Imagine if you could keep up with every piece of clothing and accessory worn by the fashion icons you look upto. From Sonam Kapoor to Hailey Baldwin Bieber, Myntra Studio has a ‘Stories’ feature to help track celebrity fashion trends, exploring details such as their outfit of the day. This way, you would not ever miss out on the latest celebrity fashion trends, from all around the world.</p>
+            <li><strong>Quick Fashion Tip And Tricks</strong></li>
+            <p>Whether it is draping a saree into a dhoti style, wearing the right lingerie under certain dresses or discovering multiple uses out of heavy ethnic wear, Myntra Studio will help you acquire some unique and useful fashion hacks. Each hack is designed with the intention to help you get the best wear out of everything in your wardrobe.</p>
+            <li><strong>Updates on What Is Trending and New Product Launches</strong></li>
+            <p>Since fast fashion seems to be extremely hard to keep up with these days, a quick update on what is trending in accessories, clothing and footwear would certainly be of great help. Myntra Studio helps you stay connected to the most beloved and sought after brands such as Puma, Coverstory, The Label Life and so many more.</p>
+            <p>Your feed keeps you updated with stories of what the brands are creating including clothing, footwear and jewellery, along with their new seasonal collections.</p>
+            <li><strong>Explicit Step-By-Step Beauty Routines From Experts</strong></li>
+            <p>Just like fashion, the beauty community keeps on growing, and with brands such as Huda Beauty, MAC and the latest Kay Beauty by Katrina Kaif, are constantly coming up with mind-blowing products. Whether it is creating a no-makeup look, different winged eyeliners, do-it-yourself facial masks and other personal care beauty routines, Myntra Studio is here for you.</p>
+            <li><strong>Celebrity Confessions And A Look Into Their Lives</strong></li>
+            <p>A bonus feature that Myntra Studio has in store for you is celebrity confessions and a peek into their lives. So, Myntra helps you stay connected to your most beloved celebrities in a matter of clicks.</p>
+            <p>If you are very particular when it comes to the content you wish to view and engage with on social media, the ability to intricately filter content helps achieve that. Applying the same formula for hardcore fashion lovers and shoppers, Myntra Studio brings you a daily fashion fix incorporating everything that you love, all at one place. Sign up on Myntra today and start organising your fashion feed, just the way you want to.</p>
+            </ul>
+            <h3><strong>MYNTRA APP</strong></h3>
+            <p>Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your <a class="seolink" href="https://play.google.com/store/apps/details?id=com.myntra.android">Android</a> or <a class="seolink" href="https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059">IOS</a> device today and experience shopping like never before!</p>
+            <h3><strong>HISTORY OF MYNTRA</strong></h3>
+            <p>Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized <a class="seolink" href="/gifts">gifts</a> was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.</p>
+            <p>The Myntra shopping app came into existence in the year 2015 to further encourage customers’ shopping sprees. Download the app on your Android or IOS device this very minute to experience fashion like never before</p>
+            <h3><strong>SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</strong></h3>
+            <p>Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 14-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.</p>
+            <p>Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions.</p>
+            </div>
+        </div>
+        </footer>
+  </body>
+</html>
